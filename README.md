@@ -35,7 +35,7 @@ The environment is considered solved, when the average (over 100 episodes) of th
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
-2. Place the file in the DRLND GitHub repository, in the `p3_collab-compet/` folder, and unzip (or decompress) the file. 
+2. Place the file in the GitHub repository, in the `Collaboration_and_Competition_project_3/`, and unzip (or decompress) the file. 
 
 ### Instructions
 
@@ -47,6 +47,6 @@ The environment is considered solved, when the average (over 100 episodes) of th
    
     **`conda activate myenv`** 
 
-4. After activating the environment, follow the instructions in `Continuous_control.ipynb` to get started with training your own agent!.
+4. After activating the environment, follow the instructions in `Tennis.ipynb` to get started with training your own agent!.
 
-Execute the all the cells and now you will be able to see the agent is trained. Model architectural changes can be done in model.py file and agent hyperparameter tuning can be done in ddpg_agent.py file.  
+Execute the all the cells and now you will be able to see the agent is trained. Model architectural changes can be done in model.py file and agent hyperparameter tuning can be done in maddpg_agent.py file.  
